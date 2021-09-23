@@ -18,7 +18,7 @@ export default function signIn() {
             </div>
 
             <div className="md:w-1/2 flex flex-col justify-center">
-            <img className="object-cover w-full h-screen block lg:hidden md:hidden" src="https://res.cloudinary.com/desug/image/upload/v1630960002/login_fea4xn.jpg" alt="gambar signin" />
+            <img className="object-cover w-screen h-screen block lg:hidden md:hidden" src="https://res.cloudinary.com/desug/image/upload/v1630960002/login_fea4xn.jpg" alt="gambar signin" />
                 <div className="flex flex-col md:justify-start my-auto pt-8 md:pt-0 px-7 md:px-10 lg:px-32  absolute  ">
 
                     <p className="text-3xl mr-auto text-blue-400 font-semibold">

@@ -1,7 +1,7 @@
 label {
     top: 0%;
     transform: translateY(-50%);
-    font-size: 18px;
+    font-size: 15px;
     color: black;
   }
   .empty input:not(:focus) + label {
@@ -11,9 +11,11 @@ label {
   }
   input:not(:focus) + label {
     color: rgba(70, 70, 70, 1);
+    
   }
   input {
     border-width: 1px;
+    
   }
   input:focus {
     outline: none;

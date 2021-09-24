@@ -41,7 +41,7 @@ export default function SignIn() {
                                 type="email"
                                 name="email"
                                 onChange={(e) => setEmail(e.target.value)}
-                                className="h-5/6 w-full rounded-full py-6 mr-40 transition-all border-gray-500 pl-5"
+                                className="h-5/6 w-full rounded-full py-6 mr-52 transition-all border-gray-500 pl-5"
                                 value={email}
                               
                             />
@@ -73,7 +73,7 @@ export default function SignIn() {
 
 
                  
-                        <div className="pt-5 pb-12 pl-12">
+                        <div className="pt-5 pb-12 pl-11">
                             <p className="text-gray-400">Don't have an account?</p>
                             <Link to="/Registration">
                             <p className="underline font-semibold text-gray-500">Register here.</p>

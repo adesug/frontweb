@@ -67,13 +67,13 @@ export default function SignIn() {
                                 <p className="text-gray-400 font-bold">Password</p>
                             </label>
                         </div>
-                        <input type="submit" value="Login" className="bg-blue-400 text-white font-bold text-lg hover:bg-blue-300 p-2 mt-9 rounded-full max-w-lg lg:ml-14 md:ml-0 " />
-
+                      
+                      <button className="bg-blue-400 text-white text-lg font-bold rounded-full p-2 max-w-lg mt-7 lg:ml-14 md:ml-0"><Link to="/EventRegistration">Login</Link></button>
                     </form>
 
 
                  
-                        <div className="pt-5 pb-12 pl-11">
+                        <div className="pt-5 pb-12pl-11">
                             <p className="text-gray-400">Don't have an account?</p>
                             <Link to="/Registration">
                             <p className="underline font-semibold text-gray-500">Register here.</p>

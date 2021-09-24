@@ -31,7 +31,7 @@ export default function Register() {
                                 className="h-5/6 w-full rounded-full py-6 mr-48 pl-5 transition-all border-gray-500 "
                                 value={firstname}
                             />
-                            <label htmlFor="email" className="absolute left-10  bottom-4 transition-all  text-gray-900 bg-white px-1 ml-5">
+                            <label htmlFor="email" className="absolute left-10  bottom-4 transition-all  text-gray-900 bg-white rounded-t-md px-1 ml-5">
                                 <p className="text-gray-400 font-bold "> First Name</p>
                             </label>
                         </div>
@@ -51,7 +51,7 @@ export default function Register() {
                                 className="h-5/6 w-full rounded-full py-6 mr-48 pl-5 transition-all border-gray-500"
                                 value={lastname}
                             />
-                            <label htmlFor="email" className="absolute left-10 bottom-4 transition-all  text-gray-900 bg-white px-1 ml-5">
+                            <label htmlFor="email" className="absolute left-10 bottom-4 transition-all  text-gray-900 bg-white rounded-t-md px-1 ml-5">
                                 <p className="text-gray-400 font-bold"> Last Name</p>
                             </label>
                         </div>
@@ -68,7 +68,7 @@ export default function Register() {
                                 className="h-5/6 w-full rounded-full py-6 mr-48 pl-5 transition-all border-gray-500"
                                 value={phone}
                             />
-                            <label htmlFor="email" className="absolute left-10 bottom-4  transition-all  text-gray-900 bg-white px-1 ml-5">
+                            <label htmlFor="email" className="absolute left-10 bottom-4  transition-all  text-gray-900 bg-white rounded-t-md px-1 ml-5">
                                 <p className="text-gray-400 font-bold">Phone Number</p>
                             </label>
                         </div>
@@ -84,21 +84,23 @@ export default function Register() {
                                 className="h-5/6 w-full rounded-full py-6 mr-48 pl-5 transition-all border-gray-500"
                                 value={password}
                             />
-                            <label htmlFor="password" className="absolute left-10 bottom-4  transition-all  text-gray-900 bg-white px-1 ml-5">
+                            <label htmlFor="password" className="absolute left-10 bottom-4  transition-all  text-gray-900 bg-white rounded-t-md px-1 ml-5">
                                 <p className="text-gray-400 font-bold">Password</p>
                             </label>
                         </div>
         
                         <input type="submit" value="Register" className=" bg-blue-400 text-white font-bold text-lg hover:bg-blue-300 p-2 lg:ml-14 md:ml-0 mt-3  max-w-lg rounded-full"/>
                     </form>
-                    <Link to="/">
+                   
                     <div className="text-center pl-11 pt-10 pb-12">
                 
                         <p className="text-gray-400">You have an account? </p>
+                        <Link to="/">
                         <p className="underline font-semibold text-gray-500">Login Here.</p>
+                        </Link>
                     
                     </div>
-                    </Link>
+                   
                 </div>
 
             </div> 
